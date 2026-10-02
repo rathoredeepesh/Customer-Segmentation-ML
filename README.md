@@ -1,75 +1,66 @@
-Customer Segmentation Using Machine Learning
-📌 Project Overview
+# 📊 Customer Segmentation Using Machine Learning
 
-This project focuses on customer segmentation using Machine Learning and K-Means Clustering.
+## 📌 Project Overview
 
-The main objective is to group customers into different segments based on their purchasing behavior, income, recency, and purchase activity. This can help businesses understand different types of customers and make better data-driven decisions.
+This project focuses on **Customer Segmentation using Machine Learning and K-Means Clustering**.
 
-🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-Streamlit
-Joblib
-Jupyter Notebook
-📊 Features Used for Clustering
+The main objective is to group customers into different segments based on their **income, purchasing behavior, recency, and purchase activity**. This can help businesses understand customer groups and support data-driven decision-making.
 
-The K-Means model uses the following customer features:
+---
 
-Income
-Recency
-Total Spending
-Number of Web Purchases
-Number of Store Purchases
-🤖 Machine Learning Model
+## 🛠️ Technologies Used
 
-The project uses K-Means Clustering, an unsupervised machine learning algorithm.
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Streamlit
+* Joblib
+* Jupyter Notebook
 
-The customer data is first standardized using StandardScaler, and then customers are grouped into 6 clusters using K-Means.
+---
 
-📁 Project Structure
+## 📊 Features Used for Clustering
+
+The K-Means model uses the following features:
+
+* **Income**
+* **Recency**
+* **Total Spending**
+* **Number of Web Purchases**
+* **Number of Store Purchases**
+
+---
+
+## 🤖 Machine Learning Model
+
+This project uses **K-Means Clustering**, an unsupervised machine learning algorithm.
+
+Before clustering, the selected features are standardized using **StandardScaler**.
+
+The K-Means algorithm is then used to divide customers into **6 different clusters** based on their characteristics.
+
+---
+
+## 📁 Project Structure
+
+```text
 Customer-Segmentation-ML/
 │
-├── Analysis Model.ipynb
-├── Customer Segmentation.csv
-│
-└── vid/
-    ├── segmentation.py
-    ├── Kmeans_model.pkl
-    └── scaler.pkl
-🚀 Streamlit Application
+├── Analysis_Model.ipynb
+├── customer_segmentation.csv
+├── README.md
+├── requirements.txt
+├── Kmeans_model.pkl
+├── scaler.pkl
+└── segmentation.py
+```
 
-The project also includes a Streamlit web application where users can enter customer information and predict their customer segment.
+---
 
-The application provides:
+## 🚀 Streamlit Application
 
-Customer input form
-Predicted cluster
-Customer segment description
-📈 Example Output
+The project includes a **Streamlit w**
 
-The application predicts a customer segment such as:
-
-Cluster 4 – High web-purchase and high-spending customers
-
-🎯 Learning Outcomes
-
-Through this project, I practiced:
-
-Data Cleaning
-Exploratory Data Analysis (EDA)
-Data Visualization
-Feature Scaling
-K-Means Clustering
-Model Saving using Joblib
-Building a Streamlit Application
-Deploying a Machine Learning project structure on GitHub
-👨‍💻 Author
-
-Deepesh Rathore
-
-B.Tech – Computer Science & Engineering (Data Science)
-Oriental Institute of Science & Technology, Bhopal
